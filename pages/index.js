@@ -1,16 +1,15 @@
-const Home = () => {
-  return (
-    <>
-      <header>HEADER</header>
-      <main>
-        <div>
-        <h1>CUBE</h1>
-        <hr />
-        <p>アウトプットしていくサイト</p>
-      </div>
-      </main>
-      <footer>FOOTER</footer>
-    </>
-  )
-}
+import Header from '../components/header'
+import Hero from '../components/hero'
+import Footer from '../components/footer'
+
+const Home = () => (
+  <>
+    <Header />
+    <main>
+      <Hero />
+    </main>
+
+    <Footer />
+  </>
+)
 export default Home
